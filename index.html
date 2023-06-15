@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="status page"></div>
+    <container class="body">
+
+        <div class="input">
+            <input class="input_text" type="text">
+            <div class="input_btn" class="button">Create QR!</div>
+            <div class="input_choose">
+                <div>
+                    <input type="radio" id="png" name='qrType' value="png"
+                    checked>
+                    <label for="png">.PNG</label>
+                </div>
+                <div>
+                    <input type="radio" id="ascii" name='qrType' value="ascii">
+                    <label for="ascii">ASCII</label>
+                </div>
+                <div>
+                    <input type="radio" id="svg" name='qrType' value="svg">
+
+                    <label for="svg">SVG</label>                </div>
+            </div>
+        </div>
+        <div class="qr-code">
+            
+        </div>
+    </container>
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.input{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 10px;
+}
+
+.input_text{
+    padding: auto;
+    border: 2px solid cornflowerblue;
+}
+
+.input_btn{
+    padding: 5px;
+    border: 2px solid orange;
+    background-color: orange;
+    box-shadow: 2px;
+    user-select: none;
+    text-align: center;
+}
+
+.input_btn:active{
+    background-color: blanchedalmond;
+}
+
+.qr-code{
+    margin-top: 20px;
+    border: 2px darkred solid;
+    min-height: 290px;
+    min-width: 290px;
+}
